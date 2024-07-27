@@ -200,12 +200,12 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 30px;
    color: #ccc;
 }
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
-}
+	#about .profile-pic {
+		position: relative;
+		width: 180px; /* Adjust the width as needed */
+		height: 180px; /* Adjust the height to make it a rectangle */
+		border-radius: 10px; /* Adjust border-radius if you want rounded corners, 0 for sharp edges */
+	}
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -831,7 +831,11 @@ call-to-action .button {
 
 
 /* contact form */
+
 #contact form { margin-bottom: 30px; }
+#contact h3 {
+		color: white;
+	}
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
